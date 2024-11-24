@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    letter-spacing: -0.3;
+}
+
+.main-body-container {
+    width: 100%;
+    height: auto;
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+.header-container {
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+column-gap: 16rem;
+}
+
+.logo-conatiner {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.youtube-logo {
+    width: fit-content;
+    height: auto;
+}
+
+.youtube-logo img {
+    width: 8rem;
+    height: auto;
+}
+
+.forms-microphone {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.forms {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;   
+}
+
+.input {
+    width: 30rem;
+    height: 2.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-color: #E1E1E1;
+    border-radius: 2rem 0 0 2rem;
+    border: 1px solid #E1E1E1 ;
+}
+
+.search-icon {
+    width: fit-content;
+    height: 2.5rem;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    background-color:#F8F8F8;
+    border-radius: 0 2rem 2rem 0;
+    border-color: #E1E1E1;
+    border: 1px solid #E1E1E1;
+}
+
+.microphone-container {
+    width: 3rem;
+    height: 3rem;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.video-icon {
+    width: 2rem;
+    height: 2ren;
+}
+
+.video-icon img {
+    width: fit-content;
+    height: auto;
+ }
+
+ .notification-icon {
+    width: 2rem;
+    height: 2rem;
+ }
+
+ .notification-icon img {
+    width: fit-content;
+    height: auto;
+ }
+
+ .profile-name-container {
+    width: 2rem;
+    height: 2rem;
+    background-color: #70919C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* All body container CSS */
+
+ .the-body-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+ }
+
+ .left-nav-bar-container {
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+ }
+
+ .first-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 1rem 0 1rem 0;
+    row-gap: 1rem;
+ }
+
+ .active-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+    background-color: #f2f2f2;
+    padding: 0.5rem;
+    border-radius: 1rem;
+ }
+
+ .icon img {
+    width: 2rem;
+    height: 2rem;
+ }
+
+ .text {
+    width: 100%;
+    height: auto;
+ }
+
+ .text p {
+    font-weight: 700;
+ }
+
+ .non-active-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+ }
+
+ .medium p {
+    font-weight: 400;
+ }
+ 
+ /* Second container */
+ 
+ .second-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 1rem 0 1rem 0;
+    row-gap: 1rem;
+ }
+
+ .you-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+ }
+
+ .you {
+    width: fit-content;
+    height: auto;
+ }
+ 
+ .you h3 {
+    font-weight: 400;
+ }
+
+ .icon-you {
+    width: fit-content;
+    height: auto;
+ }
+
+.third-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem 0 1rem 0;
+    row-gap: 2rem; 
+} 
+
+.subscriptions {
+    width: fit-content;
+    height: auto;
+}
+
+.subscriptions h3 {
+    font-weight: 500; 
+}
+
+.subscription-avatar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap:1rem ;
+}
+
+.avatar img {
+    width: fit-content;
+    height: auto;
+
+}
+
+.avatar img {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 50%
+}
+
+/* Video sections */
+
+.video-sections {
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.2rem;
+}
+
+.selection-nav-bar-icon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 1.5rem;
+    column-gap: 6rem;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.selection-nav-bar {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.active-all {
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.active-all p {
+    font-size: small;
+    font-weight: 600; 
+}
+
+.inactive-all {
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #F2F2F2;
+    color: #333232;
+    border-radius: 0.5rem; 
+    text-align: center;
+    white-space: nowrap;
+}
+
+.inactive-all p {
+    font-size: small;
+    font-weight: 600; 
+}
+
+.right-icon {
+    width: fit-content;
+    height: auto;
+    position: absolute;
+  right: 0;
+  top: 19%;
+  transform: translateY(-60%);
+  background-color: white;
+ opacity: 100%;
+  display: inline-block;
+  padding: 1rem 1rem 1rem 1rem ;
+  box-shadow: none;
+  border: none;
+  color: grey;
+}
+
+.card-wrap-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    row-gap: 2.5rem;
+}
+
+.card-sections {
+    width: 23%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.5rem;
+}
+
+.background-image-container-immanuel{
+    width: 100%;
+    height: auto;
+   background-color: #f8f8f8;
+   padding: 6rem;
+   background-image: url(./images/immanuel.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 1.5rem;
+}
+
+.background-image-container-2{
+    width: 100%;
+    height: auto;
+   background-color: #f8f8f8;
+   padding: 6rem;
+   background-image: url(./images/yoro.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 1.5rem;
+}
+
+.background-image-container-3{
+    width: 100%;
+    height: auto;
+   background-color: #f8f8f8;
+   padding: 6rem;
+   background-image: url(./images/work.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 1.5rem;
+}
+
+.background-image-container-4{
+    width: 100%;
+    height: auto;
+   background-color: #f8f8f8;
+   padding: 6rem;
+   background-image: url(./images/amorim.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 1.5rem;
+}
+
+.background-image-container-5{
+    width: 100%;
+    height: auto;
+   background-color: #f8f8f8;
+   padding: 6rem;
+   background-image: url(./images/father\ of\ spirits.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 1.5rem;
+}
+
+.background-image-container-6{
+    width: 100%;
+    height: auto;
+   background-color: #f8f8f8;
+   padding: 6rem;
+   background-image: url(./images/beginner\ framer.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 1.5rem;
+}
+
+.background-image-container-7{
+    width: 100%;
+    height: auto;
+   background-color: #f8f8f8;
+   padding: 6rem;
+   background-image: url(./images/rule.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 1.5rem;
+}
+
+.background-image-container-8{
+    width: 100%;
+    height: auto;
+   background-color: #f8f8f8;
+   padding: 6rem;
+   background-image: url(./images/okoya.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 1.5rem;
+}
+
+.timestamp {
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #0A1111;
+    color: white;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 46%;
+    transform: translateX(150%);
+    opacity: 80%;
+    z-index: 1;
+    display: block;
+    overflow: visible;
+
+}
+
+.yoro {
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #0A1111;
+    color: white;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 46%;
+    transform: translateX(200%);
+
+}
+
+.immanuel {
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #0A1111;
+    color: white;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: -2%;
+    transform: translateX(150%);
+
+}
+
+.content-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.avatar-container img {
+    width: fit-content;
+    height: auto;
+}
+
+.avatar-container img {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 50%
+}
+
+.text-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+}
+
+.title-container {
+    width: 100%;
+    height: auto;
+}
+
+.title-container  h3 {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    display: -webkit-box;
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.body-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.1rem;
+    color: grey;
+}
+
+.body-icon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 0.5rem;
+    color: grey;
+}
+
+.body-text {
+    width: fit-content;
+    height: auto;
+}
+
+.body-text p {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.icon-body {
+    width: fit-content;
+    height: auto;
+    fill: grey;
+}
+
+.icon-body img {
+    width: 1rem ;
+    height: 1rem;
+    filter: brightness(grey);
+}
+
+.time-month-view-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.time-container {
+    width: fit-content;
+    height: auto;
+
+}
+
+.time-container p {
+    font-size: medium;
+    text-wrap: nowrap;
+
+}
+
+.icon-month-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.icon-month {
+    width: fit-content;
+    height: auto;
+}
+
+.month-container {
+    width: fit-content;
+    height: auto;
+}
+
+.month-container {
+    font-size: medium;
+    text-wrap: nowrap;
+}
